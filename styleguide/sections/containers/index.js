@@ -1,6 +1,6 @@
 module.exports = {
   sections: [{
-      name: "containers",
+      name: "Components",
       content:"",
       sectionDepth:2,
       exampleMode: "expand",
