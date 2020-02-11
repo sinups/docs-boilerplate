@@ -1,2 +1,1 @@
-# docs-boilerplate
-UI-KIT Boilerplate 
+## React Styleguidist Tutorial
