@@ -1,4 +1,3 @@
-import Button from './components/Button';
-
-export { Button};
-
+// Components
+export { Button } from './components/Button';
+export { PushButton } from './components/PushButton';
