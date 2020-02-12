@@ -1,6 +1,7 @@
 
 const sections = require('./styleguide/sections');
 const { version } = require('./package.json');
+const styleguideDir = `./build/docs`
 module.exports = {
   title: 'Widget ui-kit',
   usageMode: 'collapse',
@@ -50,6 +51,7 @@ module.exports = {
     },
    
   },
+  styleguideDir,
   webpackConfig: {
     module: {
       rules: [

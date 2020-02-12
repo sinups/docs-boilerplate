@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "styleguidist server --config styleguide.config.js",
-    "build": "styleguidist build --config styleguide.config.js"
+    "build": "styleguidist build --config styleguide.config.js",
+    "docs": "buildbranch docs build/docs '' no-verify"
   },
   "eslintConfig": {
     "extends": "react-app"
