@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { createMuiTheme, withStyles, makeStyles, ThemeProvider } from '@material-ui/core/styles';
 import ButtonComp from '@material-ui/core/Button';
-import Box from '@material-ui/core/Box';
-import { green, purple } from '@material-ui/core/colors'
 import PropTypes from "prop-types";
 
 const propTypes = {
