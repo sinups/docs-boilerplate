@@ -11,8 +11,9 @@ module.exports = {
       exampleMode: "expand",
       usageMode:"expand",
       components: () => [
-      //'./src/components/Button/index.js',
-       'src/components/**/*.js'
+      './src/components/Button/index.js',
+      './src/components/PushButton/index.js',
+
       ]
   }]
 };

@@ -7,7 +7,6 @@ module.exports = {
   pagePerSection: true,
   sections: [...sections],
   version,
-  ignore: ['**/src/test.js'],
   require: ['./src/styles/styles.scss'],
   template: {
     head: {
@@ -33,6 +32,7 @@ module.exports = {
       border: '#C6C9CC',
       error: '#D64646',
       sidebarBackground: '#F3F7F9'
+
     },
     fontSize: {
       base: 15,
