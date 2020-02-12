@@ -3,7 +3,7 @@ const sections = require('./styleguide/sections');
 const { version } = require('./package.json');
 module.exports = {
   title: 'Widget ui-kit',
-  usageMode: 'expand',
+  usageMode: 'collapse',
   pagePerSection: true,
   sections: [...sections],
   version,

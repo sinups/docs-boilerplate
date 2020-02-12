@@ -1,8 +1,9 @@
 module.exports = {
   sections: [
       {
-          name: 'How to use',
-          content: './readme.md'
+          name: 'Usage',
+          content: './readme.md',
+          isolated: false,
       },
       {
       name: "Components",
@@ -10,10 +11,10 @@ module.exports = {
       sectionDepth:2,
       exampleMode: "expand",
       usageMode:"expand",
+      isolated: false,
       components: () => [
       './src/components/Button/index.js',
       './src/components/PushButton/index.js',
-
       ]
   }]
 };
