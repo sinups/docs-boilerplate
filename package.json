@@ -45,6 +45,7 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "react-styleguidist": "^10.6.1",
-    "webpack": "^4.41.5"
+    "webpack": "^4.41.5",
+    "buildbranch": "2.0.1"
   }
 }
